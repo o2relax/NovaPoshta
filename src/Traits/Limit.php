@@ -13,7 +13,7 @@ trait Limit
      * @param  int  $limit  Лимит записей
      * @return $this
      */
-    public function setLimit(int $limit): self
+    public function setLimit(string $limit): self
     {
         $this->limit = $limit;
 
@@ -26,7 +26,7 @@ trait Limit
      * @param  int  $page  Номер страницы данных
      * @return $this
      */
-    public function setPage(int $page): self
+    public function setPage(string $page): self
     {
         $this->page = $page;
 
